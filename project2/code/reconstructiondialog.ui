@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ReconstructionDialog</class>
+ <widget class="QDialog" name="ReconstructionDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>745</width>
+    <height>941</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>130</y>
+     <width>691</width>
+     <height>500</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="confirmButton">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>30</y>
+     <width>140</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确认尺寸</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="spinBox">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>30</y>
+     <width>100</width>
+     <height>40</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>30</y>
+     <width>351</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>结构元大小（n*n,请输入n为奇数)：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>80</y>
+     <width>351</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>请输入结构元：</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="conditionaldilationButton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>690</y>
+     <width>321</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Conditional Dilation</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="geodesicdilationButton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>800</y>
+     <width>321</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Grayscale Geodesic Dilation</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="geodesicerosionButton">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>800</y>
+     <width>321</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Grayscale Geodesic Erosion</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="openingButton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>870</y>
+     <width>321</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Opening by Reconstruction</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>640</y>
+     <width>351</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>二值图像：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>750</y>
+     <width>351</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>灰度图像：</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="closingButton">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>870</y>
+     <width>321</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Closing by Reconstruction</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
